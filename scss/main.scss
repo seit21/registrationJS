@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+
+  &__btn {
+    width: 200px;
+    border-radius: 15px;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    box-shadow: 4px 4px 4px rgb(185, 17, 197);
+    cursor: pointer;
+    padding: 20px;
+    background: #d5088a;
+    transition: all 0.5s linear;
+  }
+}
+.container1 {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(3, 156, 257);
+  
+  &__input{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px blue;
+    color: black;
+  }
+  &__btn {
+    width: 150px;
+    border-radius: 15px;
+    margin-left: 50px;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    box-shadow: 4px 4px 4px rgb(42, 3, 94);
+    cursor: pointer;
+    padding: 10px;
+    background: #2403b5;
+    transition: all 0.5s linear;
+  }
+}
+
+
+.container2 {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(3, 247, 125);
+  
+  &__inp{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px rgb(2, 39, 16);
+    color: black;
+  }
+  &__btn {
+    width: 150px;
+    border-radius: 15px;
+    margin-left: 50px;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    box-shadow: 4px 4px 4px rgb(2, 60, 57);
+    cursor: pointer;
+    padding: 10px;
+    background: #02691c;
+    transition: all 0.5s linear;
+  }
+}
+
+.cont{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 213, 246);
+}
+.cont1{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 213, 246);
+}
